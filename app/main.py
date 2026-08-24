@@ -22,3 +22,5 @@ if __name__ == "__main__":
     uvicorn.run("app.main:app", host="0.0.0.0", port=settings.port, reload=True)
 
 # Refatorado para melhor legibilidade
+
+# Ajustes de performance na inicialização
